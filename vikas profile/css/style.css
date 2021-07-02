@@ -1,0 +1,448 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans;', sans-serif;
+  position: relative; }
+
+/*NAV*/
+#navbar {
+  background: url("../img/1.jpg") no-repeat center center fixed;
+  background-size: cover; }
+
+#navbar .navbar {
+  background: #f5f6fa; }
+
+.navhover li {
+  padding: 10px; }
+
+.navhover li:hover {
+  text-decoration: underline; }
+
+/*NAV > ROW*/
+#rowspan span {
+  font-weight: 800; }
+
+#rowspan button {
+  padding: 12px 20px;
+  background: transparent;
+  border: 2px solid black; }
+
+#rowspan h4 {
+  line-height: 35px; }
+
+/*ABOUT*/
+#about p {
+  font-size: 15px;
+  text-indent: all; }
+
+/*PROGRESS*/
+.progress-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  margin: 0 0 25px; }
+
+.progress {
+  height: 10px;
+  background: #e9e9ea;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  overflow: visible;
+  position: relative; }
+
+.progress:before,
+.progress:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  z-index: 1; }
+
+.progress:after {
+  border: 7px solid #e9e9ea;
+  left: auto;
+  right: 0; }
+
+.progress .progress-bar {
+  box-shadow: none;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  -webkit-animation: animate-positive 1s;
+  animation: animate-positive 1s; }
+
+.progress .progress-value {
+  width: 70px;
+  height: 35px;
+  line-height: 27px;
+  border-radius: 20px;
+  background: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  position: absolute;
+  top: -12px;
+  right: 0;
+  z-index: 2; }
+
+.progress.orange:before {
+  border: 7px solid #7f8fa6; }
+
+.progress.blue:before {
+  border: 7px solid #7f8fa6; }
+
+.progress.green:before {
+  border: 7px solid #7f8fa6; }
+
+.progress.purple:before {
+  border: 7px solid #7f8fa6; }
+
+.progress.orange .progress-value {
+  border: 5px solid #747d8c;
+  color: #66406f; }
+
+.progress.blue .progress-value {
+  border: 5px solid #57606f;
+  color: #57606f; }
+
+.progress.green .progress-value {
+  border: 5px solid #57606f;
+  color: #66406f; }
+
+.progress.purple .progress-value {
+  border: 5px solid #57606f;
+  color: #66406f; }
+
+@keyframes animate-positive {
+  0% {
+    width: 0; } }
+/*SERVICES*/
+#service {
+  background: url("../img/3.jpg") no-repeat center center fixed;
+  background-size: cover; }
+
+/*FEEDBACK*/
+#feedback {
+  background: url("../img/9.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 80px 0; }
+
+#feedback .card {
+  margin: 10px 0; }
+
+/*COUNTER*/
+.counter {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 0 10px; }
+
+.counter .counter-icon {
+  color: #fff;
+  background: linear-gradient(to right, #65787F 50%, #3e4a4f 50%);
+  font-size: 38px;
+  line-height: 88px;
+  height: 100px;
+  width: 120px;
+  margin: 0 auto 5px;
+  clip-path: polygon(0 0, 50% 12%, 100% 0, 50% 100%); }
+
+.counter .counter-value {
+  color: #3e4a4f;
+  font-size: 28px;
+  font-weight: 700;
+  display: block; }
+
+.counter h3 {
+  color: #65787F;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0; }
+
+@media screen and (max-width: 990px) {
+  .counter {
+    margin-bottom: 40px; } }
+/*CONTACT*/
+#contact {
+  background-color: #f1f1f1; }
+
+.contacticon1 i {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px 0; }
+
+#contacticon2 i {
+  font-size: 20px;
+  padding: 10px;
+  margin: 0 10px; }
+
+#contacticon2 i:hover {
+  background-color: #57606f;
+  color: white; }
+
+/*MEDIA QUERY*/
+@media screen and (max-width: 768px) {
+  /*NAVBAR*/
+  .navhover li {
+    padding: 5px;
+    font-size: 15px; }
+
+  #rowspan h3 {
+    font-size: 25px; }
+
+  #rowspan h4 {
+    font-size: 18px;
+    line-height: 25px; }
+
+  #rowspan button {
+    padding: 5px 9px;
+    background: transparent;
+    border: 2px solid black; }
+
+  /*ABOUT*/
+  #about h2 {
+    font-size: 28px; }
+
+  #about h3 {
+    font-size: 22px;
+    text-align: center; }
+
+  #about .progress-title {
+    font-size: 17px; }
+
+  #about .progress-value {
+    font-size: 13px; }
+
+  #about p {
+    font-size: 14px; }
+
+  #about h6 {
+    font-size: 14px; }
+
+  /*SERVIES*/
+  #service h2 {
+    font-size: 28px; }
+
+  .fa-laptop:before {
+    content: "\f109";
+    font-size: 27px; }
+
+  .fa-spinner:before {
+    content: "\f110";
+    font-size: 27px; }
+
+  .fa-arrows:before {
+    content: "\f047";
+    font-size: 27px; }
+
+  #service h4 {
+    font-size: 21px; }
+
+  #service p {
+    font-size: 13px; }
+
+  /*WORK*/
+  #work h2 {
+    font-size: 28px; }
+
+  #work ul li button {
+    font-size: 12px; }
+
+  /*FEEDBACK*/
+  #feedback h3 {
+    font-size: 28px; }
+
+  #feedback .card span {
+    font-size: 15px; }
+
+  #feedback .card p {
+    font-size: 13px; }
+
+  /*COUNTER*/
+  #counter .counter-value {
+    font-size: 12px; }
+
+  #counter h3 {
+    font-size: 13px; }
+
+  /*CONTACT*/
+  #contact h3 {
+    font-size: 28px; }
+
+  #contact span {
+    font-size: 13px; }
+
+  #contacticon2 i {
+    font-size: 16px;
+    padding: 7px;
+    margin: 0 7px; }
+
+  .footer h6 {
+    font-size: 15px; } }
+@media screen and (max-width: 425px) {
+  /*NAVBAR*/
+  .navhover li {
+    text-align: center;
+    font-size: 14px; }
+
+  #rowspan h3 {
+    text-align: center; }
+
+  #rowspan h4 {
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center; }
+
+  #rowspan button {
+    padding: 5px 9px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black; }
+
+  /*ABOUT*/
+  #about p {
+    font-size: 12px;
+    text-align: center; }
+
+  #about .progress-title {
+    font-size: 15px; }
+
+  #about .progress-value {
+    font-size: 13px; }
+
+  #about h6 {
+    font-size: 13px;
+    text-align: center; }
+
+  /*WORK*/
+  #work ul li button {
+    font-size: 10px; }
+
+  /*FEEDBACK*/
+  #feedback .carousel p {
+    font-size: 13px; }
+
+  /*CONTACT*/
+  #contacticon2 li {
+    display: block;
+    margin: 0 auto; }
+
+  #submitbtn {
+    display: block;
+    margin: 0 auto; }
+
+  .footer h6 {
+    font-size: 14px; } }
+@media screen and (max-width: 375px) {
+  /*NAVBAR*/
+  .navhover li {
+    padding: 3px;
+    font-size: 12px; }
+
+  #rowspan h3 {
+    font-size: 21px; }
+
+  #rowspan h4 {
+    font-size: 15px;
+    line-height: 20px; }
+
+  #rowspan button {
+    padding: 5px 9px;
+    background: transparent;
+    border: 2px solid black;
+    font-size: 10px; }
+
+  /*ABOUT*/
+  #about h2 {
+    font-size: 21px;
+    margin: -16px 0; }
+
+  #about h3 {
+    font-size: 17px; }
+
+  #about .progress-title {
+    font-size: 15px; }
+
+  #about .progress-value {
+    font-size: 12px; }
+
+  #about p {
+    font-size: 12px; }
+
+  /*SERVIES*/
+  #service h2 {
+    font-size: 21px; }
+
+  .fa-laptop:before {
+    content: "\f109";
+    font-size: 25px; }
+
+  .fa-spinner:before {
+    content: "\f110";
+    font-size: 25px; }
+
+  .fa-arrows:before {
+    content: "\f047";
+    font-size: 25px; }
+
+  #service h4 {
+    font-size: 17px; }
+
+  #service p {
+    font-size: 12px; }
+
+  /*WORK*/
+  #work h2 {
+    font-size: 21px; }
+
+  #work ul li button {
+    font-size: 8px;
+    font-weight: 600;
+    padding: 9px; }
+
+  /*FEEDBACK*/
+  #feedback h3 {
+    font-size: 21px; }
+
+  #feedback .card span {
+    font-size: 13px; }
+
+  #feedback .card p {
+    font-size: 12px; }
+
+  /*COUNTER*/
+  #counter .counter-value {
+    font-size: 12px; }
+
+  #counter h3 {
+    font-size: 13px; }
+
+  /*CONTACT*/
+  #contact h3 {
+    font-size: 21px; }
+
+  #contact span {
+    font-size: 13px; }
+
+  #contacticon2 i {
+    font-size: 16px;
+    padding: 7px;
+    margin: 0 7px; }
+
+  .footer h6 {
+    font-size: 12px; } }
+@media screen and (max-width: 320px) {
+  /*WORK*/
+  #work h2 {
+    font-size: 21px; }
+
+  #work ul li button {
+    font-size: 9px;
+    padding: 2px;
+    font-weight: 600; } }
+
+/*# sourceMappingURL=style.css.map */
