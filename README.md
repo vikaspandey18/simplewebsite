@@ -1,1 +1,1 @@
-# vikaspandey18simplewebsite.github.io
+simplewebsite.github.io
