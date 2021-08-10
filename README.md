@@ -1,1 +1,1 @@
-simplewebsite.github.io
+Create A Static Single Page Website
